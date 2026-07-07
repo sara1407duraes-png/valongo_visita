@@ -1,0 +1,12 @@
+{
+  "name": "projeto-galeria",
+  "version": "1.0.0",
+  "description": "Ferramenta para converter SVGs da galeria em JPEGs e gerar miniaturas",
+  "scripts": {
+    "generate-thumbs": "node scripts/generate_thumbs.js",
+    "process-images": "node scripts/process_images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}
